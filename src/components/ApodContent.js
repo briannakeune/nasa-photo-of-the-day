@@ -6,7 +6,7 @@ export default function ApodContent() {
     const [content, setContent] = useState([]);
 
     useEffect(() => {
-        axios.get(`https://api.nasa.gov/planetary/apod?api_key=xqzKNDRaPx4VZzZ2k3WSic5UD3Ee8Yb1ygcPOt1b`)
+        axios.get(`https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY`)
         .then(resp => {
             //pod = picture of the day
             const pod = resp.data;
