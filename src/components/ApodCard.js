@@ -5,7 +5,7 @@ const ApodCard = props => {
         <div className="apod" key={props.id}>
             <h1>Astronomy Picture of the Day (APOD)</h1>
             <img className="apodImg" alt={props.title} src={props.imgUrl} />
-            <div>
+            <div className="imgText">
                 <h2 className="picTitle">{props.title}</h2>
                 {/* <h3 className="imgCred"></h3> */}
                 <p className="explanation">{props.expl}</p>
