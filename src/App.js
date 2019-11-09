@@ -1,8 +1,9 @@
 import React from "react";
-import "./App.css";
+// import "./App.css";
 import ApodContent from  './components/ApodContent';
 import Header from './components/header/Header'
 import FooterNav from './components/footer/FooterNav'
+import "./App.scss";
 
 function App() {
   return (
